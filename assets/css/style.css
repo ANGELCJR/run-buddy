@@ -273,3 +273,14 @@ text-align: right;
 .trainer h3{
   color: #fce138;
 }
+.contact-info {
+  color: #024e76;
+}
+.section-title {
+  font-size: 55px;
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
+  color: #024e76;
+}
