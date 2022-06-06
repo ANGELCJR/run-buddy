@@ -6,10 +6,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-body {
-    font-family: Helvetica, Arial, sans-serif;
-    background-color: 
-  }
+
   body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
@@ -208,8 +205,8 @@ position: relative;
 }
 
 .steps h3 {
-  color: #024e76;
-  font-size: 46px;
+  color: #39a6b2;
+  font-size: 20px;
   margin-top: 10px;
 }
 .steps p {
