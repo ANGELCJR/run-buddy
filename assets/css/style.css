@@ -110,6 +110,7 @@ header {
   display: flex;  
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .hero-form {
@@ -117,7 +118,8 @@ header {
   background-color: #fce138;
   padding: 20px;
   color: #024e76;
-  position: absolute;
+
+  
 }
 .hero-form h3 {
   font-size: 24px;
