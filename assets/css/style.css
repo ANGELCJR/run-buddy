@@ -117,6 +117,7 @@ header {
   background-color: #fce138;
   padding: 20px;
   color: #024e76;
+  position: absolute;
 }
 .hero-form h3 {
   font-size: 24px;
@@ -144,17 +145,6 @@ header {
   font-size: 16px;
 }
 /* HERO STYLES END */
-/* Hero Style End */
-.hero-form {
-  border: 3px solid #024e76;
-  background-color: #fce138;
-  padding: 20px;
-  width: 500px;
-  color: #024876;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
-}
 .hero-form p {
   margin: 5px 0 15px 0;
 }
@@ -197,6 +187,7 @@ header {
 
 .primary-border {
   border-color: #fce138;
+  position: absolute;
 }
 
 .secondary-border {
