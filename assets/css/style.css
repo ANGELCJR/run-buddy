@@ -135,14 +135,13 @@ section {
 
 .hero-form {
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: rgba(255, 225, 56, 0.8);
   padding: 20px;
   color: #024e76;
   width: 40%;
   margin: 3.5%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgb(252, 225, 56);
   border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .hero-form h3 {
@@ -231,8 +230,8 @@ section {
   justify-content: space-between;
 }
 
-.step:nth-child(even) {
-  border-bottom: 1px solid #39a6b2;
+.step:nth-child() {
+  border-bottom: none;
 }
 
 .step h3 {
@@ -364,6 +363,7 @@ section {
   margin-bottom: 15px;
   margin-top: 5px;
   border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
 }
 
 .contact-form button {
@@ -387,12 +387,22 @@ section {
 
 
 .contact-form input, .contact-form textarea {
-  /* add a transparent background here */
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  border-radius: 10px;
+  background-color: rgba(255,255,255, 0.75);
 }
 
 /* create a new css rule for focus state */
 .contact-form input:focus, .contact-form textarea:focus {
-
+  background-color: rgba(255,255,255, 1);
+  outline: none;
 }
 
 /* REACH OUT STYLES END */
